@@ -1,13 +1,8 @@
 package com.example.dineshbalajivenkataraman.kansastour;
-
 import android.content.Context;
-
 import java.util.List;
-
 public class Shop {
-
     public static void initArtsList(List<Card> list, Context context) {
-
         list.add(new Card(
                 R.drawable.shopping_1,
                 context.getString(R.string.shop_one_name),
@@ -16,7 +11,6 @@ public class Shop {
                 context.getString(R.string.shop_one_phone),
                 context.getString(R.string.shop_one_hours)
         ));
-
         list.add(new Card(
                 R.drawable.shopping_2,
                 context.getString(R.string.shop_two_name),
@@ -25,7 +19,6 @@ public class Shop {
                 context.getString(R.string.shop_two_phone),
                 context.getString(R.string.shop_two_hours)
         ));
-
         list.add(new Card(
                 R.drawable.shopping_3,
                 context.getString(R.string.shop_three_name),
@@ -34,7 +27,6 @@ public class Shop {
                 context.getString(R.string.shop_three_phone),
                 context.getString(R.string.shop_three_hours)
         ));
-
         list.add(new Card(
                 R.drawable.shopping_4,
                 context.getString(R.string.shop_four_name),
@@ -43,7 +35,6 @@ public class Shop {
                 context.getString(R.string.shop_four_phone),
                 context.getString(R.string.shop_four_hours)
         ));
-
         list.add(new Card(
                 R.drawable.shopping_5,
                 context.getString(R.string.shop_five_name),
@@ -53,4 +44,4 @@ public class Shop {
                 context.getString(R.string.shop_five_hours)
         ));
     }
-    }
+}
