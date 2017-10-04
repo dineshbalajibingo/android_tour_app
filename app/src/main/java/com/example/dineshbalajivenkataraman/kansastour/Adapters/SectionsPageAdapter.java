@@ -1,4 +1,4 @@
-package com.example.dineshbalajivenkataraman.kansastour;
+package com.example.dineshbalajivenkataraman.kansastour.Adapters;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;

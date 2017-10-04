@@ -1,4 +1,4 @@
-package com.example.dineshbalajivenkataraman.kansastour;
+package com.example.dineshbalajivenkataraman.kansastour.Adapters;
 import android.content.Context;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
@@ -9,6 +9,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.example.dineshbalajivenkataraman.kansastour.Card;
+import com.example.dineshbalajivenkataraman.kansastour.R;
+
 import java.util.List;
 public class CardAdapter extends ArrayAdapter<Card> {
     public CardAdapter(@NonNull Context context, @LayoutRes int resource, @NonNull List<Card> cardList) {

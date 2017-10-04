@@ -4,6 +4,13 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+
+import com.example.dineshbalajivenkataraman.kansastour.Adapters.SectionsPageAdapter;
+import com.example.dineshbalajivenkataraman.kansastour.Fragments.Arts_Fragment;
+import com.example.dineshbalajivenkataraman.kansastour.Fragments.Food_Fragment;
+import com.example.dineshbalajivenkataraman.kansastour.Fragments.Places_Fragment;
+import com.example.dineshbalajivenkataraman.kansastour.Fragments.Shopping_Fragment;
+
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     private SectionsPageAdapter mSectionsPageAdapter;
