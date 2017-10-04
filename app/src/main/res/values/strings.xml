@@ -108,4 +108,9 @@
     <string name="shop_five_address">5000 W 119th St Leawood, MO 66209-1525</string>
     <string name="shop_five_phone">913-498-1111</string>
     <string name="shop_five_hours">Mon-Sat 10am-9pm, Sun noon-5pm</string>
+    <string name="food_tab">Food</string>
+    <string name="places_tab">Places</string>
+    <string name="shopping_tab">Shopping</string>
+    <string name="arts_tab">Arts</string>
+
 </resources>

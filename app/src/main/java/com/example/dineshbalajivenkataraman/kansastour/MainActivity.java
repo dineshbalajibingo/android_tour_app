@@ -30,10 +30,10 @@ public class MainActivity extends AppCompatActivity {
     private void setupViewPage(ViewPager viewPager)
     {
         SectionsPageAdapter sectionsPageAdapter = new SectionsPageAdapter(getSupportFragmentManager());
-        sectionsPageAdapter.addFragment(new Places_Fragment(), "Places");
-        sectionsPageAdapter.addFragment(new Food_Fragment(), "Food");
-        sectionsPageAdapter.addFragment(new Shopping_Fragment(),"Shopping");
-        sectionsPageAdapter.addFragment(new Arts_Fragment(), "Arts");
+        sectionsPageAdapter.addFragment(new Places_Fragment(), getString(R.string.places_tab));
+        sectionsPageAdapter.addFragment(new Food_Fragment(), getString(R.string.food_tab));
+        sectionsPageAdapter.addFragment(new Shopping_Fragment(),getString(R.string.shopping_tab));
+        sectionsPageAdapter.addFragment(new Arts_Fragment(), getString(R.string.arts_tab));
         viewPager.setAdapter(sectionsPageAdapter);
     }
 }
