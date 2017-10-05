@@ -17,9 +17,6 @@ public class Card {
     public int getImgURL() {
         return imgURL;
     }
-    public void setImgURL(int imgURL) {
-        this.imgURL = imgURL;
-    }
     public String getTitle() {
         return title;
     }
@@ -29,26 +26,14 @@ public class Card {
     public String getDescription() {
         return description;
     }
-    public void setDescription(String description) {
-        this.description = description;
-    }
     public String getLocation() {
         return location;
-    }
-    public void setLocation(String location) {
-        this.location = location;
     }
     public String getPhoneNumber() {
         return phoneNumber;
     }
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
     public String getHours() {
         return hours;
-    }
-    public void setHours(String hours) {
-        this.hours = hours;
     }
     @Override
     public String toString() {

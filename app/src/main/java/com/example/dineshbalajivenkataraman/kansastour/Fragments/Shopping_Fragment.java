@@ -19,7 +19,7 @@ public class Shopping_Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         List<Card> list=new ArrayList<>();
-       Shop.initArtsList(list,getContext());
+        Shop.initArtsList(list,getContext());
         CardAdapter adapter = new CardAdapter(getActivity(), -1, list);
         View view = inflater.inflate(R.layout.listview_layout,container,false);
         ListView listView = (ListView)view.findViewById(R.id.listView);
